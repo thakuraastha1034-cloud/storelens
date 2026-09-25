@@ -1,4 +1,5 @@
 ## Databricks and Snowflake Capstone Project 2026:
+
 # StoreLens
 
 A small data pipeline I built for my Databricks & Snowflake capstone (Topic 05, Store Footfall vs Sales Conversion). It takes store door counter data and billing data, cleans both in Databricks, and serves one final table from Snowflake so store managers can see how many visitors actually buy something.
@@ -78,8 +79,9 @@ This ensures that hour 21 remains a valid trading hour.
 
 ## Repository Contents
 
-- `StoreLens_Capstone.ipynb` – Databricks pipeline
-- `StoreLens_Snowflake_SQL.sql` – Snowflake analysis queries
+- `Capstone Pipeline.ipynb` – Databricks pipeline
+- `storelens_snowflake_sql.sql` – Snowflake analysis queries
+- `q3_decile_conversion.csv` – Q3 footfall-decile conversion results
 - `README.md` – Project documentation
 
 ## Author
